@@ -107,7 +107,7 @@ X              71       (Unknown)
 ```
 
 **Performance Analysis by Executor Count**:
-| Executors | DataFrame API (s) | SQL API (s) | Total (s) |
+| Executors | DataFrame API (Seconds) | SQL API (Seconds) | Total (Seconds) |
 |-----------|-------------------|-------------|-----------|
 | 4         | 20.41             | 11.69       | 69.70     |
 | 3         | 18.57             | 16.14       | 57.10     |
