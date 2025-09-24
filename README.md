@@ -99,7 +99,7 @@ Evening     1,031
 **Results**:
 ```
 Vict Descent   count
-H              1,053    (Hispanic/Latin/Mexican)
+H              1,053    (Hispanic/Latin)
 W              610      (White)
 B              349      (Black)
 O              272      (Other)
@@ -255,7 +255,7 @@ spark-submit query4.py
 ### Performance Conclusions
 - **SQL API** generally outperformed DataFrame API for complex aggregations
 - **DataFrame API** was faster for simpler transformations and filtering
-- **RDD API** was significantly slower due to lack of Catalyst optimizer benefits
+- **RDD API** was significantly slower due to lack of optimizer benefits
 - **2 executors** provided optimal performance for most queries
 
 ### Crime Pattern Insights
